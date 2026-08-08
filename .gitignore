@@ -1,0 +1,8 @@
+# Do not commit ReShade's DLL or third-party shaders — they have their own
+# licenses and are fetched by install.sh.
+dxgi.dll
+ReShade64.dll
+ReShade_Setup_*.exe
+reshade-shaders/
+ReShade.log
+reshade-screenshots/

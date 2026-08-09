@@ -8,7 +8,10 @@ The goal: cut Ghosts' flat blue-grey wash and add subtle film-grade contrast,
 natural color, and crisp detail — while keeping a **locked 60 fps at 1080p** on
 Deck-class hardware.
 
-![filmic realism — subtle, not overprocessed](#) <!-- drop a screenshot here if you like -->
+![Filmic realism — subtle, not overprocessed. Ghosts running with the preset at 1080p on a Steam Deck OLED.](screenshots/01-valley-overlook.jpg)
+
+<sub>All shots below are straight in-game captures with the preset active — no
+external editing.</sub>
 
 ---
 
@@ -27,6 +30,44 @@ Four effects, in order, all cheap on frametime:
 
 `ReShade.ini` runs in **Performance Mode** (locks the preset, minimal runtime
 overhead — ideal for a fixed look on a handheld).
+
+---
+
+## Screenshots
+
+What the grade actually does, across the lighting cases that matter most:
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/02-air-assault.jpg" alt="Daylight air assault over the city — helicopters against green hillside and glass towers">
+      <br><sub><b>Bright daylight.</b> Colourfulness lifts the greens and sky
+      without pushing skin tones orange; highlights on the glass roll off
+      instead of clipping.</sub>
+    </td>
+    <td width="50%">
+      <img src="screenshots/03-sunlight-vines.jpg" alt="Sun shafts through an overgrown, vine-covered interior">
+      <br><sub><b>High dynamic range.</b> Blown-out window against deep shade —
+      the S-curve holds detail at both ends, and AdaptiveSharpen picks out the
+      leaf edges.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/04-low-light-interior.jpg" alt="Dim office interior lit by monitors and a doorway">
+      <br><sub><b>Low light.</b> Where stock Ghosts looks most washed-out and
+      blue — shadows sit down properly here without crushing to black.</sub>
+    </td>
+    <td width="50%">
+      <img src="screenshots/05-ops-room.jpg" alt="Dark operations room with glowing tactical displays">
+      <br><sub><b>Mixed color temperature.</b> Cyan display glow against warm
+      wood and lamplight, kept separated rather than muddied.</sub>
+    </td>
+  </tr>
+</table>
+
+> Compare for yourself in-game with **Scroll Lock** — it toggles every effect
+> off and on for an instant before/after.
 
 ---
 
